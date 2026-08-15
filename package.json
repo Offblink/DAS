@@ -1,0 +1,12 @@
+{
+  "name": "das",
+  "version": "1.0.0",
+  "description": "画个笑脸 - 透明背景绘画工具",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
