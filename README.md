@@ -10,3 +10,12 @@
 一般地，在**非鸿蒙手机**上应该可以正常运行。**但我们没测试，有意者自行打包即可。**
 
 *26.04.27 Blinvo*
+
+## 开发与构建
+
+源码为 **TypeScript**（`js/app.ts`），编译产物 `js/app.js` 已提交，打开 `index.html` 即可使用。
+
+```bash
+npm install
+npm run build   # tsc 编译 js/app.ts -> js/app.js
+```
